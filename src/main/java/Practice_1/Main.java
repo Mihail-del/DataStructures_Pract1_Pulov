@@ -39,8 +39,8 @@ public class Main {
 
         /* ==== Task Three ==== */
         //part 5
-        Animal myAnimal = new Dog("Bobik", "Złoty Retriever");
-        feed(myAnimal);
+//        Animal myAnimal = new Dog("Bobik", "Złoty Retriever");
+//        feed(myAnimal);
         // ==================
     }
 
