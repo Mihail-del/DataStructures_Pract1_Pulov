@@ -36,6 +36,20 @@ public class Main {
 //
 //        System.out.println("Are those Polish dogs equals: " + dog1.equals(dog2));
         // ==================
+
+        /* ==== Task Three ==== */
+        //part 5
+        Animal myAnimal = new Dog("Bobik", "Złoty Retriever");
+        feed(myAnimal);
+        // ==================
+    }
+
+    public static void feed(Animal animal) {
+        animal.eat();
+        if (animal instanceof Dog) {
+            Dog myDog = (Dog) animal;
+            myDog.bark();
+        }
     }
 
 

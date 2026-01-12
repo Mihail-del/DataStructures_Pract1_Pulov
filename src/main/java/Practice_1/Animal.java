@@ -10,6 +10,10 @@ public class Animal {
         this.name = name;
     }
 
+    public void eat() {
+        System.out.println("Animal is eating...");
+    }
+
     @Override
     public String toString() {
         return "Animal{" +
